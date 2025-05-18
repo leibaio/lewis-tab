@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Lewis Hamilton Fan Tab",
+  "version": "0.0.1",
+  "description": "A tab for Lewis Hamilton fans",
+  "icons": {
+    "16": "assets/images/lewis16.png",
+    "32": "assets/images/lewis32.png",
+    "48": "assets/images/lewis48.png",
+    "128": "assets/images/lewis128.png"
+  },
+  "permissions": ["tabs", "storage"],
+  "action": {
+    "default_icon": {
+      "16": "assets/images/lewis16.png",
+      "32": "assets/images/lewis32.png",
+      "48": "assets/images/lewis48.png",
+      "128": "assets/images/lewis128.png"
+    },
+    "default_title": "Lewis Hamilton Fan Tab",
+    "default_popup": "src/popup/popup.html",
+    "chrome_url_overrides": {
+      "newtab": "src/newtab/newtab.html"
+    },
+    "background": {
+      "service_worker": "src/background/background.js"
+    }
+  }
+}

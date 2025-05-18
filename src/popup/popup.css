@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  align-items: center;
+
+  .logo {
+    width: 24px;
+    height: 24px;
+    background: url("../../assets/images/lewis.png") no-repeat center/contain;
+    margin-right: 8px;
+  }
+
+  .name {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Poetsen One", sans-serif;
+  }
+}
