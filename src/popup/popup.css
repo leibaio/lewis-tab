@@ -15,3 +15,22 @@ header {
     font-family: "Poetsen One", sans-serif;
   }
 }
+
+.race-schedule {
+  margin: 10px 0;
+
+  h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+}
